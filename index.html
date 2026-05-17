@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Number Sorter</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      width: 400px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      width: 48%;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .asc {
+      background: #4caf50;
+      color: white;
+    }
+
+    .desc {
+      background: #2196f3;
+      color: white;
+    }
+
+    #result {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Number Sorter</h2>
+
+    <input 
+      type="text" 
+      id="numbers" 
+      placeholder="Enter numbers separated by commas"
+    />
+
+    <div style="display:flex; justify-content:space-between;">
+      <button class="asc" onclick="sortAscending()">
+        Sort Asc
+      </button>
+
+      <button class="desc" onclick="sortDescending()">
+        Sort Desc
+      </button>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function getNumbers() {
+      return document
+        .getElementById("numbers")
+        .value
+        .split(",")
+        .map(num => Number(num.trim()))
+        .filter(num => !isNaN(num));
+    }
+
+    function sortAscending() {
+      let nums = getNumbers();
+      nums.sort((a, b) => a - b);
+
+      document.getElementById("result").innerText =
+        "Ascending: " + nums.join(", ");
+    }
+
+    function sortDescending() {
+      let nums = getNumbers();
+      nums.sort((a, b) => b - a);
+
+      document.getElementById("result").innerText =
+        "Descending: " + nums.join(", ");
+    }
+  </script>
+
+</body>
+</html>
+
+Language requirement: answer in the same language as the user's message. Preserve code, file paths, commands, identifiers, and quoted errors exactly. Keep markdown headings and bullets readable in that language.
