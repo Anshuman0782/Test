@@ -45,3 +45,5 @@ No security vulnerabilities are known or assumed in this application.
 ----------
 
 Unknown at this time.
+
+**Note:** There is no sufficient evidence to complete the features, project structure or local setup sections. This may require additional files or code to be part of the repository.
