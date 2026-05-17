@@ -22,7 +22,7 @@ This is a simple web-based number sorting application.
 ## Project Structure
 -------------------
 
-The repository consists of only a single HTML file (`index.html`) without sufficient description.
+The repository consists of only a single HTML file (`index.html`).
 
 ## Local Setup
 --------------
@@ -44,6 +44,16 @@ No security vulnerabilities are known or assumed in this application.
 ## Roadmap
 ----------
 
-Unknown at this time. Additional context is required to provide a useful roadmap.
+Unknown at this time. The project's development path remains unclear due to insufficient information.
 
-Note for users: Since the README only contains information from the current repository, it cannot serve as an accurate representation of the project's current state. To get the most up-to-date information, please refer to other available resources.
+## Next Steps
+--------------
+
+Before contributing or modifying the project, it is essential to gather more context about its development status and goals.
+
+## Credits
+----------
+
+The creator of this project would be acknowledged here if their information was readily available.
+
+Note for users: The README contains only the information available within the current repository.
