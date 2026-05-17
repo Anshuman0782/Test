@@ -4,7 +4,7 @@
 ## Project Overview
 -----------------
 
-This is a simple web-based number sorting application, built using basic HTML, CSS, and JavaScript.
+This is a simple web-based number sorting application.
 
 ## Tech Stack
 ------------
@@ -22,7 +22,7 @@ This is a simple web-based number sorting application, built using basic HTML, C
 ## Project Structure
 -------------------
 
-The repository consists of a single HTML file (`index.html`) containing the entire web application.
+The repository consists of only a single HTML file (`index.html`) without sufficient description.
 
 ## Local Setup
 --------------
@@ -44,6 +44,6 @@ No security vulnerabilities are known or assumed in this application.
 ## Roadmap
 ----------
 
-Unknown at this time.
+Unknown at this time. Additional context is required to provide a useful roadmap.
 
-**Note:** There is no sufficient evidence to complete the features, project structure or local setup sections. This may require additional files or code to be part of the repository.
+Note for users: Since the README only contains information from the current repository, it cannot serve as an accurate representation of the project's current state. To get the most up-to-date information, please refer to other available resources.
