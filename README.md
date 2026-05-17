@@ -1,5 +1,5 @@
 # Number Sorter Repository README.md
-=====================================
+
 
 ## Project Overview
 -----------------
