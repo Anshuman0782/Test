@@ -1,6 +1,5 @@
 # Number Sorter Repository README.md
 
-
 ## Project Overview
 -----------------
 
@@ -22,7 +21,7 @@ This is a simple web-based number sorting application.
 ## Project Structure
 -------------------
 
-The repository consists of only a single HTML file (`index.html`).
+The repository consists of only a single HTML file (`index.html`), along with the current `README.md` file.
 
 ## Local Setup
 --------------
@@ -44,17 +43,34 @@ No security vulnerabilities are known or assumed in this application.
 ## Roadmap
 ----------
 
-Unknown at this time. The project's development path remains unclear due to insufficient information.
+The project's development path remains unclear due to insufficient information. We are looking for contributors to help shape the future of this project.
 
 ## Next Steps
 --------------
 
 Before contributing or modifying the project, it is essential to gather more context about its development status and goals.
 
+## Environment Variables
+-------------------------
+
+None.
+
+## Dependencies
+-------------
+
+No external dependencies are used in this project.
+
 ## Credits
 ----------
 
 The creator of this project would be acknowledged here if their information was readily available.
 
-# Removed README.md file 
-(I removed this section as according to your request, you want me to remove the README.md file.)
+## Contributing
+----------
+
+If you are interested in contributing to the Number Sorter project, please fork the repository, make your changes, and submit a pull request. We appreciate any contributions that improve the functionality, maintainability, or documentation of the project.
+
+## Contact
+----------
+
+Unfortunately, we do not have any contact information available for the project creator or maintainers. If you have any questions or concerns, you can try reaching out to the repository community or seeking guidance from online forums and resources.
