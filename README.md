@@ -1,9 +1,11 @@
-# Number Sorter Repository README.md
+# README
+
+**Repository README.md: Improved Version**
 
 ## Project Overview
 -----------------
 
-This is a simple web-based number sorting application.
+This is a simple web-based application for sorting numbers. The application allows users to enter numbers separated by commas, sort them in ascending or descending order, and display the results.
 
 ## Tech Stack
 ------------
@@ -17,16 +19,19 @@ This is a simple web-based number sorting application.
 
 * Input field for entering numbers separated by commas
 * Two buttons for sorting numbers in ascending and descending order
+* Sorted result displayed below input field
 
 ## Project Structure
 -------------------
 
-The repository consists of only a single HTML file (`index.html`), along with the current `README.md` file.
+The repository consists of two files:
+* `index.html`: single HTML file containing the application code
+* `README.md`: this file (README markdown content)
 
 ## Local Setup
 --------------
 
-To run the application, simply open `index.html` in a web browser.
+To run the application, open `index.html` in a web browser.
 
 ## Usage Flow
 --------------
@@ -48,7 +53,7 @@ The project's development path remains unclear due to insufficient information. 
 ## Next Steps
 --------------
 
-Before contributing or modifying the project, it is essential to gather more context about its development status and goals.
+Before contributing or modifying the project, gather more context about its development status and goals.
 
 ## Environment Variables
 -------------------------
@@ -63,14 +68,17 @@ No external dependencies are used in this project.
 ## Credits
 ----------
 
-The creator of this project would be acknowledged here if their information was readily available.
+Unfortunately, no information is available about the project's creator.
 
 ## Contributing
 ----------
 
-If you are interested in contributing to the Number Sorter project, please fork the repository, make your changes, and submit a pull request. We appreciate any contributions that improve the functionality, maintainability, or documentation of the project.
+If you're interested in contributing to the project:
+1. Fork the repository and make your changes.
+2. Submit a pull request with your contributions.
+3. We appreciate contributions that improve functionality, maintainability, or documentation.
 
 ## Contact
 ----------
 
-Unfortunately, we do not have any contact information available for the project creator or maintainers. If you have any questions or concerns, you can try reaching out to the repository community or seeking guidance from online forums and resources.
+No contact information is available for the project creator or maintainers. You can reach out to the repository community or online forums and resources for guidance.
